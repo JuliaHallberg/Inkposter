@@ -1,4 +1,7 @@
-require('dotenv').config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
+
 const debug = require('debug')('server:app');
 
 var createError = require('http-errors');
