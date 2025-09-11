@@ -62,6 +62,7 @@
     "express": "^4.21.1",
     "js-cookie": "^3.0.5",
     "mongodb": "^6.19.0",
+    "morgan": "^1.10.1",
     "next-auth": "^4.24.8",
     "njs": "^0.0.2",
     "node-fetch": "^3.3.2",
